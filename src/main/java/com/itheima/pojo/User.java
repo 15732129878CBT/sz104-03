@@ -12,6 +12,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
+    /**
+     * id：用户id
+     * username：用户名
+     * password：密码
+     */
     private Integer id;
     private String username;
     private Integer password;
